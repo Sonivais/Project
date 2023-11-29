@@ -1,0 +1,27 @@
+﻿<Page x:Class="ZadanieYLTRO.Page7"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ZadanieYLTRO"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page7">
+
+    <Grid Background="White" Margin="0,0,0,85">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Button x:Name="Contact" Grid.Row="1" Content="Контакты" FontSize="15" Click="ButtonContact_Click" Margin="180,143,35,38" ></Button>
+        <Button x:Name="RegnaM" Content="Регистрация на марафон" Grid.Row="1" FontSize="15" Click="ButtonRegnaM_Click" Margin="180,10,35,166" />
+        <Button x:Name="RedectP" Content="Редактирование профиля" Grid.Row="1" Margin="180,74,35,98" FontSize="15" Click="ButtonRedactP_Click" ></Button>
+        <Button x:Name="MyRez" Content="Мои результаты" Grid.Column="1" Grid.Row="1" Click="ButtonMyRez_Click" FontSize="15" Margin="35,10,180,166" ></Button>
+        <Button x:Name="MySponsr" Content="Мой спонсор" Click="ButtonMySponsr_Click" Grid.Column="1" Grid.Row="1" FontSize="15" Margin="35,74,180,98" ></Button>
+        <TextBlock Text="Меню бегуна" Grid.Column="0" Grid.ColumnSpan="2" FontSize="40" Margin="273,71,254,81"/>
+    </Grid>
+</Page>

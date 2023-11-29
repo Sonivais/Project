@@ -1,0 +1,26 @@
+﻿<Page x:Class="ZadanieYLTRO.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ZadanieYLTRO"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page1">
+
+    <Grid Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="341*" ></RowDefinition>
+            <RowDefinition Height="109*" ></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0">
+            <Button Name="BecomARaner" Content="Я хочу стать бегуном" Margin="20" Height="50" Click="ButtonRaner_Click" ></Button>
+            <Button Name="Sponsor" Content="Я хочу стать спонсором бегуна" Margin="20" Height="50" Click="ButtonSponsor_Click" />
+            <Button Name="info" Content="Узнать больше ообытии" Height="50" Margin="20" Click="ButtonInfo_Click" ></Button>
+        </StackPanel>
+        <StackPanel Grid.Row="1">
+            <Button Name="Login" Content="Login" HorizontalAlignment="Right" Height="40" Width="80" Margin="0,0,10,0" Click="ButtonLogin_Click" ></Button>
+        </StackPanel>
+
+    </Grid>
+</Page>
